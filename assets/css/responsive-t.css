@@ -1,0 +1,33 @@
+/*Responsive Media Querries for Tablet*/
+
+/*Ipad = 768 x 1024 */
+@media screen and (max-width: 1024px) and (min-width: 991px){
+    .animalShelter{
+        background-size: 95%;
+    }
+}
+
+/*Ipad = 768 x 1024 */
+@media screen and (max-width: 769px) and (min-width: 767px) {
+
+    .animalShelter{
+        background-size: 110%;
+    }
+}
+
+
+@media screen and (max-width: 990px) and (min-width: 769px) {
+    .animalShelter{
+        background-size: 110%;
+    }
+    .meetTheHostInfo p{
+        background-color: rgba(0,0,0,0.6);
+    }
+
+}
+@media screen and (min-width: 1025px) {
+    .animalShelter{
+        background-size: 85%;
+    }
+}
+

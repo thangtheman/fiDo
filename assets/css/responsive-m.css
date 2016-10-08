@@ -1,0 +1,136 @@
+/*Responsive Media Querries for Mobile*/
+
+/*Iphone 5 = 320x568 */
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+/*Iphone 6 = 375x667 */
+@media screen and (max-width: 375px) {
+    .signUpForm form {
+        width: 300px;
+    }
+}
+
+
+/*Iphone 6+ = 414x736 */
+@media screen and (max-width: 767px) {
+    #otherZlivingShows .col-sm-4{
+        margin-top: 15px;
+    }
+    #otherZlivingShows .col-sm-4 img{
+    width: 100%
+    }
+
+    .meetTheHostInfo {
+        max-width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 15px 50px;
+    }
+    #meetTheHost img{
+        width: 100%;
+    }
+    #meetTheHost{
+        background: linear-gradient(#041206, #08210c);
+        height: auto;
+    }
+    .meetTheHostInfo p{
+        background: none;)
+    }
+    .behindTheScenes img{
+        margin: 0 auto;
+    }
+    .arrowRight {
+        right: -18px;
+        z-index: 1;
+    }
+    .arrowLeft {
+        left: -18px;
+        z-index: 1;
+    }
+    #signUpForm form{
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    #signUpForm h1{
+        text-align: center;
+    }
+    .signUpForm{
+        height: 100px;
+    }
+    .signUpForm form {
+        width: 100%;
+    }
+    #animalShelter{
+        height: auto;
+    }
+    blockquote {
+        border-width: 22px 0px;
+        -moz-border-image: url(../img/bg/openClose.png) 25 0 ;
+        -webkit-border-image: url(../img/bg/openClose.png) 25 0 ;
+        -o-border-image: url(../img/bg/openClose.png) 25 0 ;
+        border-image: url(../img/bg/openClose.png) 25 0 ;
+    }
+    .header1 .logo,
+    .header .logo{
+        width: 200px;
+    }
+    .header .headerText{
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0%;
+        max-width: 100% ;
+        color: white;
+        padding: 0px 20px 10px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .header .headerText h5{
+        color: #ffa723;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .animalShelter{
+        background-size: 61%;
+        padding: 40px 0 10px 0;
+    }
+    .animalShelter div {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 721px) {
+    .animalShelter{
+        background-size: 75%;
+        padding: 40px 0 10px 0;
+    }
+    .animalShelter div {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 585px) {
+    .animalShelter{
+        background-size: 105%;
+        padding: 40px 0 10px 0;
+    }
+    .animalShelter div {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .houseTitle {
+        top: 21%;
+    }
+    .animalShelter p {
+        font-size: 10px;
+    }
+}

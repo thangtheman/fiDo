@@ -1,0 +1,45 @@
+footer h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+footer{
+    padding: 50px 0;
+    background: #222222;
+    text-align: center;
+    color: white;
+}
+.socialFooter{
+    list-style: none;
+    padding: 20px 0;
+}
+.socialFooter li{
+    display: inline;
+    padding: 5px;
+}
+.footerNav{
+    background: transparent;
+    margin-bottom: 10px;
+}
+.footerNav a{
+    color: white;
+    font-size: 16px;
+}
+.socialFooter li a:hover{
+    text-decoration: none;
+}
+.socialFooter li a{
+    color: white;
+}
+.tradeMark{
+    font-size: 14px;
+    font-weight: 200;
+}
+footer ol.footerNav{
+    font-size: 16px;
+    font-weight: 200;
+}
+footer .breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|";
+}

@@ -1,0 +1,628 @@
+/*Header 1*/
+.header1 .headerInfo{
+    padding: 10px 20px;
+    max-width: 500px;
+    font-weight: 300;
+    top:0;
+    z-index: 111;
+}
+.header1 .logo{
+    padding-bottom: 20px;
+}
+.header1 .videoHead .img-responsive{
+    width: 100%;
+}
+.header1 .videoHead {
+    margin-bottom: 20px;
+    position: relative;
+}
+#video3 {
+    width: 100%;
+}
+.header1{
+    color: white;
+    position: relative;
+}
+.socialHeader{
+    list-style: none;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+    top:20px;
+    right: 20px;
+}
+.socialHeader li i{
+    font-size: 30px;
+}
+.socialHeader li{
+    display: inline;
+    padding: 5px;
+}
+.socialHeader li a:hover{
+    text-decoration: none;
+}
+.socialHeader li a{
+    color: white;
+}
+.header1{
+    background-size: cover;
+}
+.header3{
+    position: relative;
+}
+/*Header 1End*/
+
+/*Header for Index 2*/
+.header video {
+   width: 100%;
+}
+.header .headerInfo{
+    position: relative;
+}
+.header img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.header .headerText{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 10%;
+    max-width: 350px;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.header .headerText h5{
+    color: #ffa723;
+    font-size: 22px;
+    font-weight: bold;
+}
+/*Header for Index 2 End*/
+
+/*Info*/
+    #info{
+        padding: 20px 0 50px 0;
+        background:url(../img/bg/paws2.png);
+        background-size: cover;
+    }
+    #info p{
+        margin: 20px 0;
+    }
+    /*#info a{*/
+        /*text-transform: uppercase;*/
+        /*background: #e18c00;*/
+        /*padding: 10px 20px;*/
+        /*color: white;*/
+        /*border-radius: 5px;*/
+        /*font-size: 24px;*/
+    /*}*/
+    .infoTitle{
+        border-bottom: solid 1px #cccccc;
+    }
+    .infoTitle h1{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    /*.infoTitle a{*/
+        /*display: inline-block;*/
+        /*float: right;*/
+        /*margin-bottom: 20px;*/
+        /*margin: 10px;*/
+    /*}*/
+/*Info End*/
+
+/*Meet The Host*/
+#meetTheHost{
+    background-image: url(../img/bg/seth_hisdog.png),linear-gradient(to right,  #000000 0%,#0b2310 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,08210c+100 */
+    background:url(../img/bg/seth_hisdog.png), #000000; /* Old browsers */
+    background:url(../img/bg/seth_hisdog.png), -moz-linear-gradient(left,  #000000 0%, #0b2310 100%); /* FF3.6-15 */
+    background:url(../img/bg/seth_hisdog.png), -webkit-linear-gradient(left,  #000000 0%,#0b2310 100%); /* Chrome10-25,Safari5.1-6 */
+    background:url(../img/bg/seth_hisdog.png), linear-gradient(to right,  #000000 0%,#0b2310 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0b2310',GradientType=1 ); /* IE6-9 */
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size:auto 100%, cover;
+    color: white;
+}
+.meetTheHostInfo h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.meetTheHostInfo p{
+    font-weight: 300;
+}
+
+
+.meetTheHostInfo{
+    max-width: 500px;
+    padding: 60px 0;
+}
+
+/*Meet The Host End*/
+
+/*Sign Up Form*/
+#signUpForm{
+    background-image: url(../img/bg/pawsCrowed.png),linear-gradient(to right,  #e49600 0%,#cd3b00 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,08210c+100 */
+    background:url(../img/bg/pawsCrowed.png), #e49600; /* Old browsers */
+    background:url(../img/bg/pawsCrowed.png), -moz-linear-gradient(left,  #e49600 0%, #cd3b00 100%); /* FF3.6-15 */
+    background:url(../img/bg/pawsCrowed.png), -webkit-linear-gradient(left,  #e49600 0%,#cd3b00 100%); /* Chrome10-25,Safari5.1-6 */
+    background:url(../img/bg/pawsCrowed.png), linear-gradient(to right,  #e49600 0%,#cd3b00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e49600', endColorstr='#cd3b00',GradientType=1 ); /* IE6-9 */
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size:cover, cover;
+    color: white;
+}
+#signUpForm h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 36px;
+}
+#signUpForm form{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,100%);
+}
+#signUpForm form{
+    display: inline-table;
+}
+#signUpForm form input{
+    width: 209px;
+    margin-right: 8px;
+    line-height: 27px;
+    padding-left: 5px;
+}
+.subscribeButton:hover {
+    border: none;
+    background-color: #5bc0de;
+}
+.subscribeButton {
+    padding: 5px 10px;
+    box-shadow: none;
+    border: none;
+}
+#signUpForm form input{
+    color: #555;
+}
+#signUpForm form input:focus{
+    outline: none;
+    color: #555;
+}
+
+/*Sign Up Form End*/
+
+/*Animal Shelter*/
+#animalShelter{
+    padding: 50px 0;
+    background-image: url(../img/bg/paws.png),linear-gradient(to right,  #46a5e2 0%,#003360 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,08210c+100 */
+    background:url(../img/bg/paws.png), #46a5e2; /* Old browsers */
+    background:url(../img/bg/paws.png), -moz-linear-gradient(left,  #46a5e2 0%, #003360 100%); /* FF3.6-15 */
+    background:url(../img/bg/paws.png), -webkit-linear-gradient(left,  #46a5e2 0%,#003360 100%); /* Chrome10-25,Safari5.1-6 */
+    background:url(../img/bg/paws.png), linear-gradient(to right,  #46a5e2 0%,#003360 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46a5e2', endColorstr='#003360',GradientType=1 ); /* IE6-9 */
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size:cover, cover;
+    color: white;
+}
+.animalShelter{
+    background: url(../img/bg/house.png) no-repeat center top;
+    padding: 33px 0 10px 0;
+    color: black;
+    background-size: 75%;
+}
+.animalShelterLogo{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    z-index: 99999;
+}
+.houseTitle{
+    position: relative;
+    z-index: 1;
+    color: #46a5e2;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.animalShelter p{
+    margin-top: 5px;
+    font-size: 11px;
+}
+.animalShelter img{
+    margin: 0 auto;
+}
+.animalShelter div{
+    width: 70%;
+    margin: 0 auto;
+}
+.shelterInfo h1,
+.shelterInfo p{
+    max-width: 600px;
+    color: white;
+}
+.arrowLeftShelter:hover,
+.arrowLeftShelter:active,
+.arrowRightShelter:hover,
+.arrowRightShelter:active {
+    color: white;
+}
+.arrowLeftShelter{
+    position: absolute;
+    top: 65%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    z-index: 1;
+
+}
+.arrowRightShelter{
+    position: absolute;
+    right: 20px;
+    top: 65%;
+    transform: translate(0%,-50%);
+    color: #ffffff;
+    z-index: 1;
+}
+blockquote {
+    margin: 20px 0 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    font-style: italic;
+    padding: 15px;
+    position: relative;
+    border-style: solid;
+    border-width: 30px 0px;
+    -moz-border-image: url(../img/bg/openClose.png) 30 0 ;
+    -webkit-border-image: url(../img/bg/openClose.png) 30 0 ;
+    -o-border-image: url(../img/bg/openClose.png) 30 0 ;
+    border-image: url(../img/bg/openClose.png) 30 0 ;
+}
+
+/*Animal Shelter End*/
+
+/*Other Zliving Shows*/
+#otherZlivingShows{
+    padding: 50px 0;
+}
+.showTitle{
+    border-bottom: solid 1px #cccccc;
+    margin: 0 5px;
+
+}
+.showTitle h3{
+    display: inline-block;
+    margin: 20px 0px 10px;
+    font-size: 18px;
+}
+.showTitle a{
+    display: inline-block;
+    float: right;
+    margin: 20px 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#otherZlivingShows img{
+    border: 5px solid white;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+}
+#otherZlivingShows h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+#otherZlivingShows p{
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+#otherZlivingShows .timeShow{
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*Other Zliving Shows End*/
+
+/*BehindTheScenes*/
+
+#behindTheScenes{
+    background: #e5e5e5;
+    padding: 50px 0;
+}
+#behindTheScenes h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+}
+#behindTheScenes a{
+color: white}
+.arrowLeft{
+    position: absolute;
+    top: 50%;
+    left: -45px;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+.arrowRight{
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translate(0%,-50%);
+    font-size: 30px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: block;
+    width: 360px;
+    padding: 0 0 0 20px;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #ffac3c;
+    border: 0;
+    outline: none;
+    background: transparent;
+}.slick-dots li.slick-active button:before {
+     opacity: 1;
+     color: #ffac3c;
+ }
+.slick-dots li button::before {
+    font-family: slick;
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    opacity: 1;
+    color: red;
+    -webkit-font-smoothing: antialiased;
+}
+.behindTheScenes{
+    max-width: 1053px;
+    margin: 0 auto;
+}
+.behindTheScenes div{
+    position: relative;
+    margin:15px;
+
+}
+.play{
+    top:40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%)
+}
+
+.behindTheScenes .img-responsive {
+    width: 100%;
+    border: 10px solid white;
+}
+/*BehindTheScenes End*/
+
+/*WhereToWatch*/
+.bottom-widget{
+    margin: 25px 0;
+}
+.channel-finder {
+    background: #e1e1e1;
+    padding: 0px;
+    width: 350px;
+    margin: 0 auto;
+}
+.channel-content-box {
+    padding: 0 16px 16px 16px;
+}
+.channel-content-box p {
+    color: #333;
+    margin: 10px auto;
+    font-weight: 500;
+    line-height: 30px;
+}
+.channel-content-box .footer-signup {
+    width: 100%;
+}
+.footer-signup .form {
+    float: left;
+}
+.channel-content-box .footer-signup input[type="text"] {
+    width: 223px;
+}
+.footer-signup input[type="text"] {
+    border-radius: 0;
+    height: 40px;
+    vertical-align: middle;
+    float: left;
+    font-size: 16px;
+    padding: 0 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.form-control {
+    font-size: 18px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.channel-content-box .go.footer-sign-ken-btn {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0;
+    background: #f69820;
+}
+.footer-signup button[type="submit"], .footer-signup .footer-sign-ken-btn {
+    border-radius: 0;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 45px;
+    border: 0;
+    outline: 0;
+}
+.channel-finder h4 {
+    background: #5bc0de none repeat scroll 0 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
+.bottom-widget a.view-btn {
+    background: #f69820;
+    color: #fff;
+    display: block;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 10px auto;
+    width: 350px;
+}
+.bottom-widget a {
+    text-decoration: none;
+}
+/*WhereToWatch End*/
+
+/*OtherShow*/
+#otherShow{
+    padding: 50px 0;
+    background-image: url(../img/bg/zliving_logo.png),linear-gradient(to right,  #e49600 0%,#cd3b00 100%);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,08210c+100 */
+    background:url(../img/bg/zliving_logo.png), #e49600; /* Old browsers */
+    background:url(../img/bg/zliving_logo.png), -moz-linear-gradient(left,  #e49600 0%, #cd3b00 100%); /* FF3.6-15 */
+    background:url(../img/bg/zliving_logo.png), -webkit-linear-gradient(left,  #e49600 0%,#cd3b00 100%); /* Chrome10-25,Safari5.1-6 */
+    background:url(../img/bg/zliving_logo.png), linear-gradient(to right,  #e49600 0%,#cd3b00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e49600', endColorstr='#cd3b00',GradientType=1 ); /* IE6-9 */
+    background-repeat: no-repeat, no-repeat;
+    background-position: 90%, left;
+    background-size:auto, cover;
+    color: white;
+}
+#otherShow .showInfo{
+    padding: 20px 0;
+    font-weight: 200;
+}
+#otherShow a:hover{
+    text-decoration: none;
+}
+#otherShow a{
+    color:white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#otherShow video{
+    width: 100%;
+    border: 10px solid white;
+}
+#otherShow h3{
+    font-size: 36px;
+    line-height: 40px;
+}
+/*OtherShow End*/
+
+/*Read More*/
+.readMore{
+    white-space:nowrap;
+}
+.animalShelterreadMore {
+    font-size: 11px;
+}
+#behindTheScenes .readMore,
+.animalShelterreadMore{
+    color: black;
+    white-space:nowrap;
+
+}
+#meetTheHost .readMore,
+#animalShelter .readMore{
+    color: white;
+}
+/*Read More End*/
+
+
+/*Modal*/
+.headerVideo{
+    background-color: rgba(0,0,0,0.9);
+}
+.modal-dialog {
+    margin: 10% auto;
+}
+.closeModal{
+    position: absolute;
+    background-color: #e1e1e1;
+    padding: 5px 10px;
+    color: black;
+    top: -10px;
+    right: -10px;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+    z-index: 11111;
+}
+
+/*Modal End*/
