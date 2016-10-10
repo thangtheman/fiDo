@@ -25,11 +25,14 @@
 }
 .socialHeader{
     list-style: none;
-    padding: 20px 0;
+    margin: 20px 0;
     position: absolute;
     z-index: 1;
     top:20px;
     right: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 20px;
 }
 .socialHeader li i{
     font-size: 30px;
@@ -442,9 +445,7 @@ color: white}
     width: 100%;
     border: 10px solid white;
 }
-.behindTheScenes .slick-track{
-    transform: translate3d(-1042px, 0px, 0px) !important;
-}
+
 /*BehindTheScenes End*/
 
 /*WhereToWatch*/
