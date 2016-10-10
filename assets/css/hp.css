@@ -227,13 +227,13 @@
 }
 .animalShelter{
     background: url(../img/bg/house.png) no-repeat center top;
-    padding: 33px 0 10px 0;
+    padding: 33px 0 0px 0;
     color: black;
     background-size: 75%;
 }
 .animalShelterLogo{
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     position: relative;
     z-index: 99999;
 }
@@ -301,7 +301,8 @@ blockquote {
     -o-border-image: url(../img/bg/openClose.png) 30 0 ;
     border-image: url(../img/bg/openClose.png) 30 0 ;
 }
-
+.shelterImg{
+padding-top: 15px}
 /*Animal Shelter End*/
 
 /*Other Zliving Shows*/
