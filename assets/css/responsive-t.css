@@ -4,6 +4,19 @@
 @media screen and (max-width: 1024px) and (min-width: 991px){
 
 }
+@media screen and (max-width: 1024px) {
+    .header .headerText {
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+        color: white;
+        padding: 10px 20px 20px 10px;
+        font-weight: 300;
+        line-height: 22px;
+        right: 0;
+    }
+}
 
 /*Ipad = 768 x 1024 */
 @media screen and (max-width: 769px) and (min-width: 767px) {

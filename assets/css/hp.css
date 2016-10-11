@@ -610,8 +610,16 @@ color: white}
     padding: 20px 0 30px;
 }
 .zlivingIntro img,
+.zlivingIntro span.health,
+.zlivingIntro span.entertainment {
+    font-family: spumante, sans-serif;
+    font-size: 100px;}
 .zlivingIntro h1 {
     display: inline-block;
+    font-weight: 700;
+    font-style: italic;
+    vertical-align: bottom;
+    text-align: bottom;
 }
 /*OtherShow End*/
 
@@ -626,7 +634,6 @@ color: white}
 .animalShelterreadMore{
     color: black;
     white-space:nowrap;
-
 }
 #meetTheHost .readMore,
 #animalShelter .readMore{
