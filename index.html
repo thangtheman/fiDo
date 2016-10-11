@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--Header-->
-<header class="header">
+<header id="header" class="header">
     <div class="headerInfo">
         <img src="assets/img/bg/logo1.png" class="logo" alt="">
         <video id="video1" width="480" muted loop  autoplay poster="assets/img/bg/videoThumb.jpg">
@@ -154,20 +154,23 @@
                 "The truth is, shelter dogs are the absolute best dogs you'll meet. These are dogs that have been dealt a rough hand. Anyone out there who has had a shelter dog will tell you that he or she appreciates that second chance, a new opportunity to be happy.”</blockquote>
         </div>
         <div class="col-sm-6">
-            <div class="slider animalShelter">
-                <div>
-                    <img src="assets/img/bts/shelterLogo.png" class="animalShelterLogo" alt="">
-                    <h3 class="houseTitle">Angels Among Us Pet Rescue</h3>
-                    <img class="img-responsive shelterImg" src="assets/img/bts/animal.jpg"/>
-                    <p>This #blindpup was discovered by @Debbie85 in our shelter.  He was the perfect family companion.  We're partnering with @FindingFido <a class="animalShelterreadMore" href="">...Read More</a></p>
-                </div>
-                <div>
-                    <img src="assets/img/bts/dog.png" class="animalShelterLogo" alt="">
-                    <h3 class="houseTitle">Dog House</h3>
-                    <img class="img-responsive shelterImg" src="assets/img/bts/animal.jpg"/>
-                    <p>This #blindpup was discovered by @Debbie85 in our shelter.  He was the perfect family companion.  We're partnering with @FindingFido  <a class="animalShelterreadMore" href="">...Read More</a></p>
+            <div class="houseShelter">
+                <div class="slider animalShelter">
+                    <div>
+                        <img src="assets/img/bts/shelterLogo.png" class="animalShelterLogo" alt="">
+                        <h3 class="houseTitle">Angels Among Us Pet Rescue</h3>
+                        <img class="img-responsive shelterImg" src="assets/img/bts/animal.jpg"/>
+                        <p>This #blindpup was discovered by @Debbie85 in our shelter.  He was the perfect family companion.  We're partnering with @FindingFido <a class="animalShelterreadMore" href="">...Read More</a></p>
+                    </div>
+                    <div>
+                        <img src="assets/img/bts/dog.png" class="animalShelterLogo" alt="">
+                        <h3 class="houseTitle">Dog House</h3>
+                        <img class="img-responsive shelterImg" src="assets/img/bts/animal.jpg"/>
+                        <p>This #blindpup was discovered by @Debbie85 in our shelter.  He was the perfect family companion.  We're partnering with @FindingFido  <a class="animalShelterreadMore" href="">...Read More</a></p>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -277,10 +280,8 @@
 <script src="assets/js/app.js"></script>
 <script>
     $('.behindTheScenes').slick({
-        lazyLoad: 'ondemand',
-        infinite: true,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         draggable: true,
         prevArrow: '<a href="@" class="arrowLeft"><i class="fa fa-chevron-left fa-2x"><\/i><\/a>',
         nextArrow: '<a href="@" class="arrowRight"><i class="fa fa-chevron-right fa-2x"><\/i><\/a>',
@@ -288,10 +289,9 @@
             breakpoint: 767,
             settings: {
                 arrows: true,
-                centerMode: false,
                 slidesToShow: 1,
                 autoplay:true,
-                autoplaySpeed: 2000
+                autoplaySpeed: 3000
             }}]
     });
     $('.animalShelter').slick({

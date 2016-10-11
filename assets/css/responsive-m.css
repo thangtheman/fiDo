@@ -99,39 +99,15 @@
         font-weight: bold;
     }
 
-    .animalShelter{
-        background-size: 61%;
-        padding: 40px 0 10px 0;
-    }
-    .animalShelter div {
-        width: 50%;
-        margin: 0 auto;
-    }
-}
-@media screen and (max-width: 721px) {
-    .animalShelter{
-        background-size: 75%;
-        padding: 40px 0 10px 0;
-    }
-    .animalShelter div {
-        width: 50%;
-        margin: 0 auto;
-    }
 
 }
-@media screen and (max-width: 585px) {
-    .animalShelter{
-        background-size: 105%;
-        padding: 40px 0 10px 0;
-    }
-    .animalShelter div {
-        width: 80%;
-        margin: 0 auto;
+@media screen and (max-width: 438px) {
+    .animalShelter {
+        max-width: 275px;
+        margin: auto;
+        padding-top: 35px;
     }
     .houseTitle {
-        top: 21%;
-    }
-    .animalShelter p {
-        font-size: 10px;
+        margin-top: 10px;
     }
 }

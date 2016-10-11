@@ -57,10 +57,12 @@
 
 /*Header for Index 2*/
 .header video {
-   width: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 .header .headerInfo{
     position: relative;
+    overflow: hidden;
 }
 .header img{
     position: absolute;
@@ -70,7 +72,7 @@
 .header .headerText{
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    bottom: 10%;
+    bottom: 30%;
     max-width: 441px;
     color: white;
     padding: 20px 40px 20px 20px;
@@ -211,6 +213,7 @@
 /*Sign Up Form End*/
 
 /*Animal Shelter*/
+
 #animalShelter{
     padding: 50px 0;
     background-image: url(../img/bg/paws.png),linear-gradient(to right,  #46a5e2 0%,#003360 100%);
@@ -225,12 +228,23 @@
     background-size:cover, cover;
     color: white;
 }
+
 .animalShelter{
-    background: url(../img/bg/house.png) no-repeat center top;
-    padding: 33px 0 0px 0;
-    color: black;
-    background-size: 75%;
+    max-width: 335px;
+    margin: auto;
+    padding-top: 50px;
 }
+.houseShelter{
+    background: url(../img/bg/house.png) no-repeat center top;
+    color: black;
+    background-size: contain;
+    position: relative;
+    min-height: 450px;
+}
+.housePicture{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
 .animalShelterLogo{
     width: 70px;
     height: 70px;
@@ -254,10 +268,6 @@
 .animalShelter img{
     margin: 0 auto;
 }
-.animalShelter div{
-    width: 70%;
-    margin: 0 auto;
-}
 .shelterInfo h1,
 .shelterInfo p{
     max-width: 600px;
@@ -272,7 +282,7 @@
 .arrowLeftShelter{
     position: absolute;
     top: 65%;
-    left: 20px;
+    left: -15%;
     transform: translateY(-50%);
     color: #ffffff;
     z-index: 1;
@@ -280,7 +290,7 @@
 }
 .arrowRightShelter{
     position: absolute;
-    right: 20px;
+    right: -15%;
     top: 65%;
     transform: translate(0%,-50%);
     color: #ffffff;
@@ -301,8 +311,7 @@ blockquote {
     -o-border-image: url(../img/bg/openClose.png) 30 0 ;
     border-image: url(../img/bg/openClose.png) 30 0 ;
 }
-.shelterImg{
-padding-top: 15px}
+
 /*Animal Shelter End*/
 
 /*Other Zliving Shows*/
@@ -432,8 +441,7 @@ color: white}
 }
 .behindTheScenes div{
     position: relative;
-    margin:15px;
-
+    margin: 15px 15px 15px 11px;
 }
 .play{
     top:40%;
