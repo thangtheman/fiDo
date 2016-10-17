@@ -2,7 +2,10 @@
 
 /*Iphone 5 = 320x568 */
 @media screen and (max-width: 320px) {
-
+    .channel-content-box .footer-signup input[type="text"] {
+        width: 193px;
+        border-radius: 5px 0 0 5px;
+    }
 }
 
 
@@ -11,6 +14,10 @@
 @media screen and (max-width: 375px) {
     .signUpForm form {
         width: 300px;
+    }
+    .channel-content-box .footer-signup input[type="text"] {
+        width: 248px;
+        border-radius: 5px 0 0 5px;
     }
 }
 
@@ -112,6 +119,7 @@
         background: rgba(0, 0, 0, 0.6);
         padding: 10px;
         border-radius: 20px;
+        width: 55px;
     }
     .socialHeader li {
          display: block;
@@ -120,6 +128,20 @@
     .socialFooter{
         display: none;
     }
+    .headerText a.button {
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 20px 30px;
+        font-size: 24px;
+        margin: 0 auto;
+        background: #5bc0de;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .headerText {
+        background: rgba(10,10,75,0.35);    }
 }
 @media screen and (max-width: 438px) {
     .animalShelter {
