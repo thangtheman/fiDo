@@ -2,10 +2,7 @@
 
 /*Iphone 5 = 320x568 */
 @media screen and (max-width: 320px) {
-    .channel-content-box .footer-signup input[type="text"] {
-        width: 193px;
-        border-radius: 5px 0 0 5px;
-    }
+
 }
 
 
@@ -16,7 +13,7 @@
         width: 300px;
     }
     .channel-content-box .footer-signup input[type="text"] {
-        width: 248px;
+        width: calc(100% - 45px);
         border-radius: 5px 0 0 5px;
     }
 }
@@ -45,7 +42,8 @@
         height: auto;
     }
     .meetTheHostInfo p{
-        background: none;)
+        background: none;
+    )
     }
     .behindTheScenes img{
         margin: 0 auto;
@@ -58,14 +56,7 @@
         left: -18px;
         z-index: 1;
     }
-    #signUpForm form{
-        text-align: center;
-        position: absolute;
-        z-index: 1;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%,0);
-    }
+
     #signUpForm h1{
         text-align: center;
     }
@@ -128,20 +119,21 @@
     .socialFooter{
         display: none;
     }
-    .headerText a.button {
-        text-align: center;
-        color: #fff;
-        border-radius: 5px;
-        display: inline-block;
-        padding: 20px 30px;
-        font-size: 24px;
-        margin: 0 auto;
-        background: #5bc0de;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
+
     .headerText {
         background: rgba(10,10,75,0.35);    }
+    #otherShow a {
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid white;
+        padding: 10px;
+        font-weight: bold;
+        background: #db7300;
+        border-radius: 5px;
+    }
+    #meetTheHost {
+        background: #0b2310;
+    }
 }
 @media screen and (max-width: 438px) {
     .animalShelter {

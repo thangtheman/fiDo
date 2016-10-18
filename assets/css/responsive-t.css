@@ -4,6 +4,16 @@
 @media screen and (max-width: 1024px) and (min-width: 991px){
 
 }
+@media screen and (min-width: 767px) {
+    .meetTheHostInfo {
+        max-width: 550px;
+        padding: 60px 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+    }
+}
 @media screen and (max-width: 1024px) {
     .header .headerText {
         background: rgba(0, 0, 0, 0.6);
@@ -15,6 +25,18 @@
         font-weight: 300;
         line-height: 22px;
         right: 0;
+    }
+    .headerText a.button {
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 20px 30px;
+        font-size: 24px;
+        margin: 0 auto;
+        background: #5bc0de;
+        font-weight: bold;
+        margin-bottom: 10px;
     }
 }
 

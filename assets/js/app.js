@@ -2,28 +2,38 @@ var myVideo = document.getElementById("video1");
 myVideo.play();
 function playersize(){
     if ($(window).width() > 1400) {
-        $(".headerInfo").css("height", $(window).height()*.8);
+        // $(".headerInfo").css("height", $(window).height()*.8);
     }
     else {
-        $(".headerInfo").css("height", $(window).width()*0.5625);
+        // $(".headerInfo").css("height", $(window).width()*0.5625);
     }
 }
 playersize();
 //Resize To Fit Frame
 $(window).on('load, resize',function(){
     playersize();
+	signupFormResize();
 });
 setTimeout(function(){playersize();},500);
 
 var cb=1;
 function changebackground(){
-	cb=cb+1;
-	if(cb>4){
-		cb=1;
+
+	if ($(window).width() > 767) {
+		cb=cb+1;
+		if(cb>4){
+			cb=1;
+		}
+		setTimeout(function(){
+			$("#meetTheHost").css('background-image','url(assets/img/bg/dog-'+cb+'.jpg)');
+			changebackground();
+		},10000);	}
+	else {
 	}
-	setTimeout(function(){
-		$("#meetTheHost").css('background-image','url(assets/img/bg/dog-'+cb+'.jpg)');
-		changebackground();
-	},10000);	
+
 }
 changebackground();
+function signupFormResize() {
+	$('.footer-signup .form').css('width', $('.view-btn').width()+20);
+}
+signupFormResize();
