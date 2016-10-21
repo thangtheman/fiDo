@@ -35,5 +35,10 @@ function changebackground(){
 changebackground();
 function signupFormResize() {
 	$('.footer-signup .form').css('width', $('.view-btn').width()+20);
+	$('img.player-preview').css('height', $('.widget-2').height());
+	$('.widget-3 .wrap').css('height', $('.widget-2').height());
+	$('#info .signUpForm input').css('width', $('#info .signUpForm').width()-97);
 }
 signupFormResize();
+$('img.player-preview').css('height', $('.widget-2').height()+51);
+$('.widget-3 .wrap').css('height', $('.widget-2').height()+51);

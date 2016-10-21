@@ -45,6 +45,69 @@
 
 }
 
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+	#meetTheHost { background-position:130%; }
+	.meetTheHostInfo h2 { font-size:32px;}
+	.meetTheHostInfo p {
+		padding-right:20%;
+		}
+	img.player-preview { height:auto !important; }
+	.widget-2 .wrap { height:273px;}	
+	.headerText h1 { display:inline-block; }
+	.headerText { text-align:center; padding-top:30px;}
+	.headerText .logo { width:200px;}
+	.socialHeader {
+    margin: 0px auto;
+    top: 20px;
+    right: 10px;
+    text-align: right;
+}
+.header img { display:none;}
+.header video { margin:0; }
+.bottom-widget .wrap { height:234px !important;}
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+	.widget-2 .wrap { height:200px;}	
+	.arrowRight { right:-25px; font-size:24px; top:35%;}
+	.arrowLeft	{ left:-25px; font-size:24px; top:35%;}
+	#meetTheHost .img-responsive { width:100%; }
+	#meetTheHost { height:auto;}
+	.meetTheHostInfo {
+    max-width: 100%;
+    padding: 60px 30px;
+	text-align:center;
+    position: relative;
+    z-index: 10000;
+    top: auto;
+    transform: none;
+    background: #0b2310;
+    margin: 0 0 0 -25px;
+}
+.meetTheHostInfo p {
+    padding-right: 0%;
+}
+
+.zlivingIntro span.health, .zlivingIntro span.entertainment {
+    font-family: 'vivabeautiful';
+    font-size: 48px;
+}
+.header video { margin:0; }
+.header img { display:none;}
+#otherShow a {
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #db7300;
+    border-radius: 5px;
+    margin: 0px auto 30px;
+    display: block;
+    width: 400px;
+    text-align: center;
+}
+}
 
 @media screen and (max-width: 991px) and (min-width: 769px) {
     .meetTheHostInfo p{
@@ -58,4 +121,21 @@
     .houseTitle {
         margin-top: 10px;
     }
+}
+@media screen and (max-width: 1200px)  and (min-width: 768px) {
+    .headerText h1 { display:inline-block; font-size: 80px;padding-left: 10px;padding-right: 10px;margin: 0}
+    .headerText { text-align:center; padding-top:30px;}
+    .headerText .logo { width:200px;}
+}
+@media screen and (max-width: 1383px) and (min-width: 1200px) {
+    .header .headerText h1 {
+        font-family: 'vivabeautiful';
+        color: #fe8b26;
+        font-size: 50px;
+        font-weight: normal;
+    }
+    .header .headerText {
+        top: 50%;
+    }
+
 }

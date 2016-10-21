@@ -1,29 +1,33 @@
-
-h1{
-font-family: Capriola;
+@font-face {
+	font-family: 'vivabeautiful';
+src: url('fonts/vivabeautiful.eot');
+src: url('fonts/vivabeautiful.ttf') format('truetype'), url('fonts/vivabeautiful.eot?#iefix') format('embedded-opentype'), url('fonts/vivabeautiful.woff') format('woff');
 }
-h2{
-    font-family: Capriola;
+h1 {
+	font-family: 'vivabeautiful';
 }
-h3{
-    font-family: Capriola;
+h2 {
+	font-family: Capriola;
 }
-h4{
-    font-family: Capriola;
+h3 {
+	font-family: Capriola;
 }
-h5{
-    font-family: Capriola;
-    font-size: 18px;
+h4 {
+	font-family: Capriola;
 }
-h6{
-    font-family: Capriola;
+h5 {
+	font-family: Capriola;
+	font-size: 18px;
 }
-p{
-    font-size: 16px;
+h6 {
+	font-family: Capriola;
 }
-a{
-    font-size: 16px;
+p {
+	font-size: 16px;
 }
-.orange{
-    color:#fe8b26
+a {
+	font-size: 16px;
+}
+.orange {
+	color: #fe8b26
 }

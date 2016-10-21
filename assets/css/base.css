@@ -2,5 +2,15 @@ body{
     margin: 0 auto;
 }
 html, body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+@font-face {
+    font-family: 'Magnolia Sky';
+    url('magnolia_sky/magnolia_sky.otf')
+    url('magnolia_sky/magnolia_sky.ttf')
+}
+@font-face {
+    font-family: 'Magnolia Sky';
+    src: url(magnolia_sky/magnolia_sky.otf) format("truetype");
+    src: url(magnolia_sky/magnolia_sky.ttf) format("truetype");
 }

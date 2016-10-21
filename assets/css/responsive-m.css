@@ -21,6 +21,7 @@
 
 /*Iphone 6+ = 414x736 */
 @media screen and (max-width: 767px) {
+    .headerText h1 { display:inline-block; font-size: 60px}
     #otherZlivingShows .col-sm-4{
         margin-top: 15px;
     }
@@ -43,7 +44,9 @@
     }
     .meetTheHostInfo p{
         background: none;
-    )
+		    font-size: 20px;
+    line-height: 24px;
+    
     }
     .behindTheScenes img{
         margin: 0 auto;
@@ -60,12 +63,7 @@
     #signUpForm h1{
         text-align: center;
     }
-    .signUpForm{
-        height: 100px;
-    }
-    .signUpForm form {
-        width: 100%;
-    }
+
     #animalShelter{
         height: auto;
     }
@@ -78,7 +76,7 @@
     }
     .header1 .logo,
     .header .logo{
-        width: 200px;
+        width: 50%
     }
     .header .headerText{
         background: rgba(0, 0, 0, 0.6);
@@ -99,18 +97,21 @@
         font-size: 16px;
         font-weight: bold;
     }
+	.headerInfo h1 { 
+	font-size: 60px;
+    margin-bottom: -15px;
+	}
+	.headerInfo:after { display:none;}
     .socialHeader {
-        list-style: inherit;
-        margin: 20px 0;
-        position: fixed;
-        z-index: 1;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.6);
-        padding: 10px;
-        border-radius: 20px;
-        width: 55px;
+    list-style: inherit;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 20px;
+    width: 55px;
+    right: 0;
+    top: 0;
     }
     .socialHeader li {
          display: block;
@@ -121,19 +122,149 @@
     }
 
     .headerText {
-        background: rgba(10,10,75,0.35);    }
+        background: #fff;
+        text-align: center;
+    }
     #otherShow a {
-        font-size: 16px;
+        font-size: 15px;
         color: #fff;
         border: 1px solid white;
-        padding: 10px;
+        padding: 10px 17px;
         font-weight: bold;
         background: #db7300;
         border-radius: 5px;
+        white-space: nowrap;
+
     }
+	#otherZlivingShows h1 { font-size:50px; padding-bottom: 20px;}
     #meetTheHost {
         background: #0b2310;
     }
+    .zlivingIntro {
+        padding: 20px 0 30px;
+        text-align: center;
+    }
+    #signUpForm p {
+        max-width: 90%;
+        text-align: center;
+        margin: 0 auto 30px;
+        padding: 0 20px;
+    }
+    #signUpForm {
+        padding: 25px 0 50px;
+    }
+    .header video {
+        width: 100%;
+        margin: 0% auto;
+    }
+    .header img {
+        display: none;
+    }
+    .headerText {
+        margin-top: -5px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5e7f4+0,aecde5+100 */
+
+background: rgb(213,231,244); /* Old browsers */
+
+background: -moz-linear-gradient(top,  rgba(213,231,244,1) 0%, rgba(174,205,229,1) 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  rgba(213,231,244,1) 0%,rgba(174,205,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  rgba(213,231,244,1) 0%,rgba(174,205,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e7f4', endColorstr='#aecde5',GradientType=0 ); /* IE6-9 */
+
+
+
+
+		padding:30px;
+    }
+	
+	.widget-2 .wrap {
+    padding-bottom: 25px;
+}
+
+.channel-finder h3 {
+	padding-top:20px;
+	}
+
+    .headerText img {
+        width: 50%;
+    }
+    .widget-1, .widget-2 , .widget-3, #info, .widget-1 img,.bottom-widget .wrap {
+        border: 0px solid #E1E1E1;
+        padding: 0;
+        margin: 0;
+    }
+    #behindTheScenes .container,
+    #meetTheDogs .container{
+        padding: 0;
+    }
+    .behindTheScenes div, #meetTheDogs .slider div img,
+    #meetTheDogs .slider div, #meetTheDogs .slider div img{
+        margin: 0;
+    }
+    #behindTheScenes h1, #meetTheDogs h1 {
+        margin: 20px 0 ;
+    }
+    .zlivingIntro img, .zlivingIntro span.health, .zlivingIntro span.entertainment {
+        font-family: 'vivabeautiful';
+        font-size: 50px;
+        font-weight: 300;
+        margin: 0 auto;
+        display: block;
+    }
+    .zlivingIntro h1 {
+        text-align: center;
+		margin:20px 0 -10px;
+    }
+    .slick-dots {
+        position: relative;
+        bottom: 20px;
+        display: block;
+        width: 360px;
+        padding: 0 0 0 20px;
+        text-align: center;
+    }
+	.behindTheScenes .img-responsive, #meetTheDogs .slider .img-responsive {
+		border-top:3px solid white;
+		border-bottom:3px solid white;
+		border-right:0;
+		border-left:0;
+		margin-bottom:30px;
+		box-shadow:0;
+		}
+	.slick-dots li button::before { color:#fff;}	
+	.slick-dots li.slick-active button:before { color:darkblue;}
+	#meetTheDogs .slick-dots li.slick-active button:before { color:#8bb5d5; } 
+	#behindTheScenes, #meetTheDogs {
+		padding:50px 0 40px;
+		}
+    #behindTheScenes h1, #meetTheDogs h1 {
+        margin: 0 0 30px;
+        font-size: 50px;
+        font-weight: 400;
+        font-family: 'vivabeautiful';
+        text-align: center;
+    }
+	#behindTheScenes h1 { margin-bottom:-20px; }
+	#behindTheScenes .slick-slider { margin-top:20px; }
+	#meetTheDogs h1 { margin-bottom:0px;}
+	
+    #behindTheScenes p, #meetTheDogs p {
+        padding: 0 15px;
+        text-align: center;
+    }
+	#otherShow a {
+    margin-bottom: 20px;
+    display: block;
+}
+.headerText { padding:20px 30px 30px;}
+
+	 #meetTheDogs p { margin:10px 0 30px;}
+	.meetTheHostInfo h1  { margin-bottom:-20px;line-height: 1}
+	.meetTheHostInfo h1 .orange { font-size:50px;}
+	.meetTheHostInfo { text-align:center;  padding-top:40px;}
 }
 @media screen and (max-width: 438px) {
     .animalShelter {
